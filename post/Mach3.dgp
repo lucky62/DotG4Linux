@@ -1,0 +1,38 @@
+'DotG posztprocesszor (Mach3 verzió)
+
+{format
+[ext]tap
+[seq]|1|1|
+[xy]d3|x0|
+[z]d3|x0|
+[f]d0|x0|
+}
+
+{header
+( - DotG program - )
+( - [bmpfile] -)
+( Xmin:[xmin] Ymin:[ymin] Zmin:[zmin] )
+( Xmax:[xmax] Ymax:[ymax] Zmax:[zmax] )
+G17 G21 G40
+G80 G90 G94
+T[tnum]
+S[sp] M[m34]
+G0 X[xh] Y[yh] Z[zh]
+}
+
+{moving
+G0 X[xa] Y[ya] Z[za]
+G1 Z[zd] F[fz]
+ifzt
+G04 P[zt]
+endzt
+ifsl
+G1 X[sl] F[f]
+endsl
+G0 Z[za]
+}
+
+{pgmend
+G0 X[xh] Y[yh] Z[zh]
+M30
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/bin/fpc" Date="1454174389"/>
+  <Params Value=" -MDelphi -Scghi -Cg -O1 -g -gl -l -vewnhibq -Fl/opt/gnome/lib -Fu/home/lucky62/.lazarus/lib/units/x86_64-linux/gtk2 -Fu/home/lucky62/.lazarus/lib/LCLBase/units/x86_64-linux -Fu/usr/share/lazarus/1.6.2/components/lazutils/lib/x86_64-linux -Fu/home/lucky62/.lazarus/lib/units/x86_64-linux -Fu/SHARED/SSD_DATA/00_MyProjects/LazarusProjects/DotG/DotG_V64/ -dLCL -dLCLgtk2 DotGv64.lpr"/>
+</CONFIG>

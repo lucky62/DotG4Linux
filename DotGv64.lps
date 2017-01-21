@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="DotGv64.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos Y="12"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="DotgV_064.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="1334"/>
+        <CursorPos X="61" Y="1347"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="DotgV_064.lfm"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3197"/>
+        <CursorPos X="29" Y="3230"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="/usr/share/fpcsrc/3.0.0/rtl/objpas/sysutils/sysinth.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="122"/>
+        <CursorPos X="3" Y="134"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+    </Units>
+    <JumpHistory Count="29" HistoryIndex="28">
+      <Position1>
+        <Filename Value="DotgV_064.pas"/>
+        <Caret Line="31" Column="13" TopLine="3"/>
+      </Position1>
+      <Position2>
+        <Filename Value="DotgV_064.pas"/>
+        <Caret Line="32" Column="13" TopLine="4"/>
+      </Position2>
+      <Position3>
+        <Filename Value="DotgV_064.pas"/>
+        <Caret Line="44" Column="22" TopLine="16"/>
+      </Position3>
+      <Position4>
+        <Filename Value="DotgV_064.pas"/>
+        <Caret Line="47" Column="41" TopLine="19"/>
+      </Position4>
+      <Position5>
+        <Filename Value="DotgV_064.pas"/>
+        <Caret Line="116" Column="23" TopLine="89"/>
+      </Position5>
+      <Position6>
+        <Filename Value="DotgV_064.pas"/>
+        <Caret Line="163" Column="23" TopLine="136"/>
+      </Position6>
+      <Position7>
+        <Filename Value="DotgV_064.pas"/>
+        <Caret Line="164" Column="23" TopLine="137"/>
+      </Position7>
+      <Position8>
+        <Filename Value="DotgV_064.pas"/>
+        <Caret Line="279" Column="38" TopLine="251"/>
+      </Position8>
+      <Position9>
+        <Filename Value="DotgV_064.pas"/>
+        <Caret Line="387" Column="15" TopLine="359"/>
+      </Position9>
+      <Position10>
+        <Filename Value="DotgV_064.pas"/>
+        <Caret Line="1223" Column="15" TopLine="1195"/>
+      </Position10>
+      <Position11>
+        <Filename Value="DotgV_064.pas"/>
+        <Caret Line="1411" Column="29" TopLine="1383"/>
+      </Position11>
+      <Position12>
+        <Filename Value="DotgV_064.pas"/>
+        <Caret Line="1422" Column="17" TopLine="1394"/>
+      </Position12>
+      <Position13>
+        <Filename Value="DotgV_064.pas"/>
+        <Caret Line="1425" Column="10" TopLine="1397"/>
+      </Position13>
+      <Position14>
+        <Filename Value="DotgV_064.pas"/>
+        <Caret Line="1426" Column="10" TopLine="1398"/>
+      </Position14>
+      <Position15>
+        <Filename Value="DotgV_064.pas"/>
+        <Caret Line="1428" Column="38" TopLine="1400"/>
+      </Position15>
+      <Position16>
+        <Filename Value="DotgV_064.pas"/>
+        <Caret Line="1502" Column="17" TopLine="1475"/>
+      </Position16>
+      <Position17>
+        <Filename Value="DotgV_064.pas"/>
+        <Caret Line="1504" Column="16" TopLine="1477"/>
+      </Position17>
+      <Position18>
+        <Filename Value="DotgV_064.pas"/>
+        <Caret Line="1519" Column="9" TopLine="1492"/>
+      </Position18>
+      <Position19>
+        <Filename Value="DotgV_064.pas"/>
+        <Caret Line="1530" Column="29" TopLine="1502"/>
+      </Position19>
+      <Position20>
+        <Filename Value="DotgV_064.pas"/>
+        <Caret Line="1534" Column="13" TopLine="1506"/>
+      </Position20>
+      <Position21>
+        <Filename Value="DotgV_064.pas"/>
+        <Caret Line="1536" Column="36" TopLine="1508"/>
+      </Position21>
+      <Position22>
+        <Filename Value="DotgV_064.pas"/>
+        <Caret Line="1539" Column="24" TopLine="1511"/>
+      </Position22>
+      <Position23>
+        <Filename Value="DotgV_064.pas"/>
+        <Caret Line="1602" Column="13" TopLine="1575"/>
+      </Position23>
+      <Position24>
+        <Filename Value="DotgV_064.pas"/>
+        <Caret Line="1680" Column="9" TopLine="1653"/>
+      </Position24>
+      <Position25>
+        <Filename Value="DotgV_064.pas"/>
+      </Position25>
+      <Position26>
+        <Filename Value="DotgV_064.pas"/>
+        <Caret Line="2717" Column="20" TopLine="2689"/>
+      </Position26>
+      <Position27>
+        <Filename Value="DotgV_064.pas"/>
+        <Caret Line="2720" Column="29" TopLine="2692"/>
+      </Position27>
+      <Position28>
+        <Filename Value="DotgV_064.pas"/>
+        <Caret Line="1452" Column="57" TopLine="1436"/>
+      </Position28>
+      <Position29>
+        <Filename Value="DotgV_064.pas"/>
+      </Position29>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

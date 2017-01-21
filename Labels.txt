@@ -1,0 +1,70 @@
+Tool #:
+Spindle RPM:
+XY Feed:
+Z Feed:
+Rep. line:
+Extend:
+X  raster:
+Y  raster:
+Z Safe dist.:
+Z Depth.:
+X home:
+Y Home:
+Z Home:
+M04
+M03
+M05
+M08
+M07
+M09
+Z Timing:
+Acceleration:
+CS2:
+CS1:
+CS3:
+Approx. Cycle Time:
+Rapid:
+XY Time multipl.:
+Z Time multipl.:
+ Image: 
+ Postp.:
+ Img. pix. size: 
+ Working area: 
+ Sets.:
+(-- ** HINTS **--)
+Origin
+Machining Strategy
+Machined color (Black or White)
+Neighbor Points Mode
+Tool and Technology
+Machining Parameters
+Home positions
+Spindle Codes
+Coolant Codes
+Custom strings (For Postrprocessor)
+Speed settings (For Cycle time calculation) 
+Load settings
+Generate G-code
+Save actual settings
+Close application
+Information
+Load Bitmap
+Select postprocessor
+Save current strings to <Labels.txt>
+Repeat all BMP lines with given distance
+Multiplier of XY moving time (for fine tuning) 
+Multiplier of Z moving time (for fine tuning)
+(Days : Hours : Minutes : Seconds)
+Stretch
+Tool Tip
+(--** Messages **--)
+Only Numbers and Decimal Point Allowed!
+Only Numbers Allowed!
+Only Number, Significant and Decimal Point Allowed!
+Image or Postprocessor not loaded!
+Max. 65535 pixel wide picture is available to open!
+Code saved!
+Unable to access File!
+
+ BMP is not 1-bit format! Output will be invalid!
+Visit our homepage: www.dotg.weeby.com

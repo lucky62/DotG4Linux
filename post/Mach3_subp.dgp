@@ -1,0 +1,44 @@
+'Post for DotG (Mach3 subrutine version)
+
+{format
+[ext]tap
+[seq]|1|1|
+[xy]d3|x0|m|
+[z]m|d3|x0|
+[f]m|d0|x0|
+}
+
+{header
+G17 G21 G40 G50
+G64 G80 G90 G94
+T[tnum] H[tcorr]
+S[sp] M[m34]
+G0 X[xh] Y[yh] Z[zh]
+}
+
+{moving
+#1=[xa]
+ifym
+#2=[ya]
+ifsl
+#3=[sl]  
+endsl
+M98 P1
+}
+
+{pgmend
+G0 X[xh] Y[yh] Z[zh]
+M30
+O1
+G0 X[#1] Y[#2] Z[za]
+G1 Z[zs] F[fs]
+G1 Z[zd] F[fz]
+ifzt
+G04 P[zt]
+endzt
+ifsl
+G1 X[#3] F[f]
+endsl
+G0 Z[za]
+M99
+}

@@ -1,0 +1,46 @@
+'DotG posztprocesszor (Heidenhain 530 verzió)
+
+{format
+[ext]H
+[seq]|2|3|
+[xy]d3|x0|
+[z]d3|x0|
+[f]d0|x0|
+}
+
+{header
+[N] BEGIN PGM [pname] MM
+[N] BLK FORM  0.1 Z X[xmin] Y[ymin] Z[zmin]
+[N] BLK FORM  0.2   X[xmax] Y[ymax] Z[zmax]
+[N] ;- DotG program -
+[N] ;- [bmpfile]-
+[N] TOOL CALL [tnum] Z S[sp]
+[N] L X[xh] Y[yh] Z[zh] FMAX M[m34]
+}
+
+{moving
+[N] L X[xa] Y[ya] Z[za] FMAX
+[N]   Z[zd] F[fz]
+ifzt
+[N] CALL LBL 1
+endzt
+ifsl
+[N]   X[sl] F[f]
+endsl
+[N]   Z[za] FMAX
+}
+
+
+{pgmend
+[N] M05
+[N] L X[xh] Y[yh] Z[zh] FMAX
+[N] M30
+ifzt
+[N] ; - Subprg -
+[N] LBL 1
+[N] CYCL DEF 9.0 KIVARASI IDO
+[N] CYCL DEF 9.1 V.IDO[zt]
+[N] LBL 0
+endzt
+[N] END PGM [pname] MM
+}
